@@ -99,7 +99,7 @@ app.get("/processes", async (req, res) => {
       SELECT *
       FROM legal_processes
       ${where}
-      ORDER BY id DESC
+      ORDER BY data_atualizacao DESC
       LIMIT 300
     `,
       values,
