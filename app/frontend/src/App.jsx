@@ -15,7 +15,9 @@ import {
 } from "recharts";
 import "./App.css";
 
-const API_URL = "http://localhost:3001";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://santander-data-eng-case-api.onrender.com";
 const ITEMS_PER_PAGE = 7;
 
 const statusColors = {
