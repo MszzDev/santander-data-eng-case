@@ -1,0 +1,20 @@
+{
+    "total_registros": 120,
+    "score_qualidade": 100.0,
+    "duplicados": 0,
+    "nulos_criticos": 0,
+    "processos_invalidos": 0,
+    "valores_invalidos": 0,
+    "campos_ausentes": [],
+    "campos_obrigatorios": [
+        "Numero_Processo",
+        "Tribunal",
+        "Data_Atualizacao",
+        "CPF_Hash",
+        "Nome_Cliente_Hash",
+        "Valor_Garantia",
+        "Status_Processo",
+        "Tipo_Garantia"
+    ],
+    "status": "APROVADO"
+}

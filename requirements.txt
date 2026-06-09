@@ -1,0 +1,9 @@
+pandas
+faker
+sqlalchemy
+psycopg2-binary
+minio
+playwright
+apache-airflow
+prometheus-client
+python-dotenv
